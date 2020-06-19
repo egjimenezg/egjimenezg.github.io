@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "type": "posts",
+      "id": "1",
+      "attributes": {
+        "title": "Title",
+        "body": "Markdown post body <br>```block of code```"
+      }
+    }
+  ]
+}
