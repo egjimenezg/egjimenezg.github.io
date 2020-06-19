@@ -1,0 +1,8 @@
+<h4>Blog posts</h4>
+
+{{#each @model as |post|}}
+  <div>{{post.title}}</div>
+  <div>{{markdown-to-html post.body}}</div>
+{{/each}}
+
+{{outlet}}
